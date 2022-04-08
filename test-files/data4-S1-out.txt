@@ -1,0 +1,43 @@
+
+2 . . | 5 1 . | . . .
+. . . | . . . | . 2 .
+. 8 . | 9 . . | . 7 5
+------+-------+------
+. . . | . . 3 | 6 . .
+. 7 . | . 2 . | . . .
+5 4 . | 1 . . | . . .
+------+-------+------
+8 3 7 | . . . | . . 2
+9 . . | . . . | 3 . 8
+. . . | . 4 . | . . 1
+
+57 cells are unknown
+
+strategy one
+row 4 col 1 must be 1
+row 7 col 4 must be 6
+row 9 col 1 must be 6
+
+strategy one
+row 5 col 1 must be 3
+
+strategy one
+row 3 col 1 must be 4
+
+strategy one
+row 2 col 1 must be 7
+row 3 col 7 must be 1
+
+2 . . | 5 1 . | . . .
+7 . . | . . . | . 2 .
+4 8 . | 9 . . | 1 7 5
+------+-------+------
+1 . . | . . 3 | 6 . .
+3 7 . | . 2 . | . . .
+5 4 . | 1 . . | . . .
+------+-------+------
+8 3 7 | 6 . . | . . 2
+9 . . | . . . | 3 . 8
+6 . . | . 4 . | . . 1
+
+50 cells are unknown
